@@ -1,0 +1,58 @@
+main {
+    margin-top: 16vh;
+}
+
+main section h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    padding-left: 3vw;
+}
+
+main section div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#caratula01, #caratula02, #caratula03 {
+    width: auto;
+    height: 40vw;
+}
+
+#caratula02 {
+    width: 33vw;
+}
+
+.captura {
+    width: 90vw;
+    height: 55vw;
+    border: 0.2vh solid black;
+    margin-bottom: 1vh;
+}
+
+@media only screen and (min-width: 768px) {
+
+    main section h2 {
+        justify-content: left;
+    }    
+
+    #caratula01, #caratula02, #caratula03 {
+        width: auto;
+        height: 23vw;
+        margin-left: -2.5vw;
+    }
+
+    #caratula02 {
+        margin: 0 2vw 0 -1vw;
+    }
+    
+    .captura {
+        width: 35vw;
+        height: 23vw;
+        border: 0.2vh solid black;
+        margin: 0 1vw 1vh 0;
+    }    
+}
+
+

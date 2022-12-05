@@ -1,0 +1,67 @@
+main aside section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main aside {
+    margin-top: 18vh;
+}
+
+main aside h2, main article {
+    padding: 0 3vw 0 3vw;
+}
+
+main aside section p {
+    display: flex;
+    justify-content: center;
+    margin: 1vh 0 1vh 0;
+    width: 100vw;
+}
+
+main aside img, main article div img { 
+    margin-top: 1vh;
+    width: 50vw;
+    border: 0.2vh solid black;
+}
+
+main article h2, main article div img {
+    margin-top: 2vh;
+}
+
+main article div {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    main aside h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    main aside img {
+        width: 34vw;
+    }
+
+    main article {
+        margin-top: 16vh;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    
+    main aside img {
+        width: 20vw;
+    }
+
+    main article p, main article div img {
+        margin-right: 3vw;
+    }
+
+    main article div img {
+        width: 40vw;
+    }
+}

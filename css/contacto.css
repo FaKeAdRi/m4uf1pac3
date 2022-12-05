@@ -1,0 +1,39 @@
+main {
+    margin-top:  18vh;
+}
+
+main h2 {
+    margin-left: 3vw;
+}
+
+main iframe {
+    width: 100vw;
+    height: 55vh;
+    border: solid 0.1vw black;
+}
+
+@media only screen and (min-width: 768px) {
+    main, main h2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    main h2 {
+        margin-left: 0;
+        width: 100vw;
+    }
+
+    main iframe {
+        width: 75vw;
+        height: 55vh;
+    }     
+}
+
+@media only screen and (min-width: 992px) {
+    main iframe {
+        width: 60vw;
+        height: 55vh;
+    }     
+}

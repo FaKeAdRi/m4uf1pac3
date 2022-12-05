@@ -1,0 +1,34 @@
+main {
+    margin-top: 16vh;
+}
+
+main section, main section h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main h2 {
+    margin: 2vh 0 2vh 0;
+    width: 100vw;
+}
+
+main section iframe {
+    width: 80vw;
+    height: 45vw;
+    border: solid 0.1vw black;
+}
+
+@media only screen and (min-width: 768px) {
+    main section iframe {
+        width: 60vw;
+        height: 34vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    main section iframe {
+        width: 50vw;
+        height: 28vw;
+    }
+}
